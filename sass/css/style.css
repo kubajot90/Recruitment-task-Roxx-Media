@@ -49,4 +49,57 @@
 .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet-active {
   background-color: #3369D3;
   height: 0.92vw;
+}
+
+.hero {
+  position: relative;
+}
+.hero .hero__main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+.hero .hero__main .hero__hamburger-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 8.33vw;
+  left: 8.88vw;
+  width: 8.33vw;
+  height: 5.55vw;
+  cursor: pointer;
+}
+.hero .hero__main .hero__hamburger-container .hero__hamburger,
+.hero .hero__main .hero__hamburger-container .hero__hamburger::before,
+.hero .hero__main .hero__hamburger-container .hero__hamburger::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0.55vw;
+  background-color: white;
+}
+.hero .hero__main .hero__hamburger-container .hero__hamburger::before {
+  content: "";
+  margin-top: 2.77vw;
+}
+.hero .hero__main .hero__hamburger-container .hero__hamburger::after {
+  content: "";
+  margin-top: -2.77vw;
+}
+.hero .hero__main .hero__logo {
+  position: absolute;
+  width: 11.11vw;
+  height: 11.11vw;
+  top: 5.55vw;
+  right: 8.88vw;
 }/*# sourceMappingURL=style.css.map */
