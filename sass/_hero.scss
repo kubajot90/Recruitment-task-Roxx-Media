@@ -16,7 +16,6 @@
             justify-content: center;
             position: relative;
             top: 8.33vw;
-            // left: 0;
             left: 8.88vw;
             width: 8.33vw;
             height: 5.55vw;
@@ -43,13 +42,49 @@
             }
         }
 
-        .hero__logo {
+        .hero__bmw-logo {
             position: absolute;
             width: 11.11vw;
             height: 11.11vw;
             top: 5.55vw;
-            // right: 0;
             right: 8.88vw;
         }
+
+        .hero__title-container {
+            position: absolute;
+            top: 43.33vw;
+            left: 8.88vw;
+
+            .hero__bmw-i-logo {
+                width: 16.29vw;
+            }
+
+            .hero__title {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 45.83vw;
+                height: 40.55vw;
+
+                .hero__title-text {
+                    font-family: 'Cairo', sans-serif;
+                    font-weight: bold;
+                    font-size: 13.33vw;
+                    line-height: 15.55vw;
+                    color: white;
+                }
+            }
+
+            .hero__subtitle-text {
+                font-family: 'Roboto', sans-serif;
+                font-size: 4.44vw;
+                color: #D6D6D6;
+                line-height: 6.66vw;
+            }
+        }
+
+
+
+
     }
 }

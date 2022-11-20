@@ -5,6 +5,14 @@
           box-sizing: border-box;
 }
 
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  all: unset;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -96,10 +104,45 @@
   content: "";
   margin-top: -2.77vw;
 }
-.hero .hero__main .hero__logo {
+.hero .hero__main .hero__bmw-logo {
   position: absolute;
   width: 11.11vw;
   height: 11.11vw;
   top: 5.55vw;
   right: 8.88vw;
+}
+.hero .hero__main .hero__title-container {
+  position: absolute;
+  top: 43.33vw;
+  left: 8.88vw;
+}
+.hero .hero__main .hero__title-container .hero__bmw-i-logo {
+  width: 16.29vw;
+}
+.hero .hero__main .hero__title-container .hero__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45.83vw;
+  height: 40.55vw;
+}
+.hero .hero__main .hero__title-container .hero__title .hero__title-text {
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+  font-size: 13.33vw;
+  line-height: 15.55vw;
+  color: white;
+}
+.hero .hero__main .hero__title-container .hero__subtitle-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 4.44vw;
+  color: #D6D6D6;
+  line-height: 6.66vw;
 }/*# sourceMappingURL=style.css.map */
