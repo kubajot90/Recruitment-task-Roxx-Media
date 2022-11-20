@@ -3,11 +3,10 @@
 
     .hero__main {
         position: absolute;
-        // padding: 0 $main-padding;
         top: 0;
         left: 0;
         width: 100%;
-        // height: 100%;
+        height: 100%;
         z-index: 9;
 
         .hero__hamburger-container {
@@ -81,6 +80,24 @@
                 color: #D6D6D6;
                 line-height: 6.66vw;
             }
+        }
+
+        .hero__button {
+            position: absolute;
+            bottom: 26.38vw;
+            left: 50%;
+            width: 74.72vw;
+            height: 12.77vw;
+            transform: translateX(-50%);
+            font-family: 'Cairo', sans-serif;
+            font-weight: 600;
+            line-height: 7.22vw;
+            letter-spacing: 0.019vw;
+            font-size: 3.88vw;
+            border: none;
+            background-color: $bmw-blue;
+            color: white;
+            cursor: pointer;
         }
 
 
