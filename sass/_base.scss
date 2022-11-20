@@ -6,8 +6,24 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    //0.2777vw = 1px (360px vp width)
+    font-size: 0.2777vw;
 }
 
 p {
     all: unset;
+}
+
+button {
+    transform: translateX(-50%);
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    line-height: 7.22vw;
+    letter-spacing: 0.019vw;
+    // font-size: 3.88vw;
+    font-size: 14rem;
+    border: none;
+    background-color: $bmw-blue;
+    color: white;
+    cursor: pointer;
 }

@@ -7,10 +7,25 @@
 
 html {
   font-family: "Roboto", sans-serif;
+  font-size: 0.2777vw;
 }
 
 p {
   all: unset;
+}
+
+button {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-family: "Cairo", sans-serif;
+  font-weight: 600;
+  line-height: 7.22vw;
+  letter-spacing: 0.019vw;
+  font-size: 14rem;
+  border: none;
+  background-color: #3369D3;
+  color: white;
+  cursor: pointer;
 }
 
 .swiper {
@@ -137,13 +152,13 @@ p {
 .hero .hero__main .hero__title-container .hero__title .hero__title-text {
   font-family: "Cairo", sans-serif;
   font-weight: bold;
-  font-size: 13.33vw;
+  font-size: 48rem;
   line-height: 15.55vw;
   color: white;
 }
 .hero .hero__main .hero__title-container .hero__subtitle-text {
   font-family: "Roboto", sans-serif;
-  font-size: 4.44vw;
+  font-size: 16rem;
   color: #D6D6D6;
   line-height: 6.66vw;
 }
@@ -153,15 +168,8 @@ p {
   left: 50%;
   width: 74.72vw;
   height: 12.77vw;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  font-family: "Cairo", sans-serif;
-  font-weight: 600;
-  line-height: 7.22vw;
-  letter-spacing: 0.019vw;
-  font-size: 3.88vw;
-  border: none;
-  background-color: #3369D3;
-  color: white;
-  cursor: pointer;
+}
+
+.facts {
+  padding-top: 16.66vw;
 }/*# sourceMappingURL=style.css.map */
