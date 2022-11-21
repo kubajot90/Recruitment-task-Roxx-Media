@@ -43,6 +43,12 @@ h2 {
   line-height: 7.77vw;
 }
 
+h4 {
+  font-size: 13rem;
+  line-height: 6.66vw;
+  color: #4e4e4e;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -203,7 +209,7 @@ h2 {
 }
 .facts .facts__content {
   padding: 0 8.88vw;
-  margin-top: 16.66vw;
+  margin: 16.66vw 0 33.47vw;
 }
 .facts .facts__content .facts__title {
   display: -webkit-box;
@@ -215,8 +221,34 @@ h2 {
   width: 51.94vw;
   height: 20.27vw;
   margin-top: 2.638vw;
-  background-color: red;
 }
 .facts .facts__content .facts__icon {
   width: 6.66vw;
+}
+
+.attribute {
+  margin-top: 8.33vw;
+}
+.attribute .attribute__number {
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+  font-size: 12rem;
+  line-height: 6.38vw;
+}
+.attribute .attribute__path {
+  display: block;
+  position: relative;
+  width: 82.22vw;
+  height: 0.416vw;
+  margin: 4.16vw 0;
+  background-color: rgb(226, 226, 226);
+}
+.attribute .attribute__path::after {
+  content: "";
+  position: absolute;
+  width: 3.61vw;
+  height: 0.416vw;
+  top: 0;
+  left: 0;
+  background-color: #4e4e4e;
 }/*# sourceMappingURL=style.css.map */

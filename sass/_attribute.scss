@@ -1,0 +1,31 @@
+.attribute {
+    margin-top: 8.33vw;
+
+    .attribute__number {
+        font-family: 'Cairo', sans-serif;
+        font-weight: bold;
+        font-size: 12rem;
+        line-height: 6.38vw;
+    }
+
+    .attribute__path {
+        display: block;
+        position: relative;
+        width: 82.22vw;
+        height: 0.416vw;
+        margin: 4.16vw 0;
+        background-color: rgb(226, 226, 226);
+    }
+
+    .attribute__path::after {
+        content: "";
+        position: absolute;
+        width: 3.61vw;
+        height: 0.416vw;
+        top: 0;
+        left: 0;
+        background-color: #4e4e4e;
+    }
+
+    .attribute__text h4 {}
+}
