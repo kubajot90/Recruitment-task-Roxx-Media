@@ -52,7 +52,7 @@
         .hero__title-container {
             position: absolute;
             top: 43.33vw;
-            left: 8.88vw;
+            padding: 0 $main-padding;
 
             .hero__bmw-i-logo {
                 width: 16.29vw;
@@ -65,14 +65,6 @@
                 width: 45.83vw;
                 height: 40.55vw;
 
-                .hero__title-text {
-                    font-family: 'Cairo', sans-serif;
-                    font-weight: bold;
-                    // font-size: 13.33vw;
-                    font-size: 48rem;
-                    line-height: 15.55vw;
-                    color: white;
-                }
             }
 
             .hero__subtitle-text {

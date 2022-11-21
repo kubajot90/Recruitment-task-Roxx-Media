@@ -20,10 +20,24 @@ button {
     font-weight: 600;
     line-height: 7.22vw;
     letter-spacing: 0.019vw;
-    // font-size: 3.88vw;
     font-size: 14rem;
     border: none;
     background-color: $bmw-blue;
     color: white;
     cursor: pointer;
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 48rem;
+    line-height: 15.55vw;
+    color: white;
+}
+
+h2 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 24rem;
+    line-height: 7.77vw;
 }
