@@ -304,4 +304,32 @@ h4 {
   padding: 0 2.77vw;
   margin-bottom: 19.44vw;
   width: 100%;
+}
+
+.test-drive .test-drive__image-container {
+  position: relative;
+  height: 66.94vw;
+  margin-bottom: 7.22vw;
+}
+.test-drive .test-drive__image-container .test-drive__image {
+  position: absolute;
+  height: 100%;
+  left: -43.61vw;
+}
+.test-drive .test-drive__image-container .test-drive__path {
+  position: absolute;
+  width: 80.27vw;
+  top: 25.99vw;
+  left: -43.61vw;
+  z-index: -1;
+}
+.test-drive .test-drive__content {
+  padding: 0 8.88vw;
+  margin-bottom: 16.66vw;
+}
+.test-drive .test-drive__content .test-drive__title {
+  height: 12.5vw;
+}
+.test-drive .test-drive__content .test-drive__title sup {
+  font-size: 13rem;
 }/*# sourceMappingURL=style.css.map */

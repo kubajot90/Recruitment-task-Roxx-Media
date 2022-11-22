@@ -1,0 +1,40 @@
+.test-drive {
+
+    // position: relative;
+    // height: 66.94vw;
+    .test-drive__image-container {
+        position: relative;
+        height: 66.94vw;
+        margin-bottom: 7.22vw;
+
+        .test-drive__image {
+            position: absolute;
+            height: 100%;
+            left: -43.61vw;
+
+        }
+
+        .test-drive__path {
+            position: absolute;
+            width: 80.27vw;
+            top: 25.99vw;
+            left: -43.61vw;
+            z-index: -1;
+        }
+    }
+
+
+    .test-drive__content {
+        padding: 0 $main-padding;
+        margin-bottom: 16.66vw;
+
+        .test-drive__title {
+            height: 12.5vw;
+        }
+
+        .test-drive__title sup {
+            font-size: 13rem;
+        }
+    }
+
+}
