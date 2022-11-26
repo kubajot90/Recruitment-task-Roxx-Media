@@ -1,20 +1,17 @@
 .test-drive {
-
-    // position: relative;
-    // height: 66.94vw;
-    .test-drive__image-container {
+    .test-drive__image-container-1 {
         position: relative;
         height: 66.94vw;
         margin-bottom: 7.22vw;
 
-        .test-drive__image {
+        .test-drive__image-1 {
             position: absolute;
             height: 100%;
             left: -43.61vw;
 
         }
 
-        .test-drive__path {
+        .test-drive__path-1 {
             position: absolute;
             width: 80.27vw;
             top: 25.99vw;
@@ -37,4 +34,22 @@
         }
     }
 
+    .test-drive__image-container-2 {
+        position: relative;
+        height: 98.61vw;
+
+        .test-drive__image-2 {
+            position: absolute;
+            width: 108.61vw;
+            right: -56vw;
+        }
+
+        .test-drive__path-2 {
+            position: absolute;
+            top: -40.4vw;
+            left: 20.55vw;
+            width: 98.33vw;
+            z-index: -1;
+        }
+    }
 }

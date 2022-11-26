@@ -69,7 +69,6 @@
 
             .hero__subtitle-text {
                 font-family: 'Roboto', sans-serif;
-                // font-size: 4.44vw;
                 font-size: 16rem;
                 color: #D6D6D6;
                 line-height: 6.66vw;
@@ -80,6 +79,7 @@
             position: absolute;
             bottom: 26.38vw;
             left: 50%;
+            transform: translateX(-50%);
             width: 74.72vw;
             height: 12.77vw;
         }

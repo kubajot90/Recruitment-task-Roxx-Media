@@ -15,11 +15,10 @@ p {
 }
 
 button {
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
   font-family: "Cairo", sans-serif;
   font-weight: 600;
-  line-height: 7.22vw;
+  line-height: 12.77vw;
+  height: 12.77vw;
   letter-spacing: 0.019vw;
   font-size: 14rem;
   border: none;
@@ -72,6 +71,15 @@ h4 {
   position: absolute;
   width: 66.66vw;
   height: 66.66vw;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 .swiper {
@@ -205,6 +213,8 @@ h4 {
   position: absolute;
   bottom: 26.38vw;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 74.72vw;
   height: 12.77vw;
 }
@@ -300,23 +310,18 @@ h4 {
 .innovations .innovations__content .innovations__text {
   margin-bottom: 33.33vw;
 }
-.innovations .innovations__images-group {
-  padding: 0 2.77vw;
-  margin-bottom: 19.44vw;
-  width: 100%;
-}
 
-.test-drive .test-drive__image-container {
+.test-drive .test-drive__image-container-1 {
   position: relative;
   height: 66.94vw;
   margin-bottom: 7.22vw;
 }
-.test-drive .test-drive__image-container .test-drive__image {
+.test-drive .test-drive__image-container-1 .test-drive__image-1 {
   position: absolute;
   height: 100%;
   left: -43.61vw;
 }
-.test-drive .test-drive__image-container .test-drive__path {
+.test-drive .test-drive__image-container-1 .test-drive__path-1 {
   position: absolute;
   width: 80.27vw;
   top: 25.99vw;
@@ -332,4 +337,96 @@ h4 {
 }
 .test-drive .test-drive__content .test-drive__title sup {
   font-size: 13rem;
+}
+.test-drive .test-drive__image-container-2 {
+  position: relative;
+  height: 98.61vw;
+}
+.test-drive .test-drive__image-container-2 .test-drive__image-2 {
+  position: absolute;
+  width: 108.61vw;
+  right: -56vw;
+}
+.test-drive .test-drive__image-container-2 .test-drive__path-2 {
+  position: absolute;
+  top: -40.4vw;
+  left: 20.55vw;
+  width: 98.33vw;
+  z-index: -1;
+}
+
+.images-group .images-group__image {
+  padding: 0 2.77vw;
+  margin-bottom: 19.44vw;
+  width: 100%;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 8.88vw;
+}
+.form ::-webkit-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13rem;
+  line-height: 6.66vw;
+}
+.form ::-moz-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13rem;
+  line-height: 6.66vw;
+}
+.form :-ms-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13rem;
+  line-height: 6.66vw;
+}
+.form ::-ms-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13rem;
+  line-height: 6.66vw;
+}
+.form label,
+.form ::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13rem;
+  line-height: 6.66vw;
+}
+.form label {
+  margin-left: 2.77vw;
+}
+.form .form__header {
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+  font-size: 20rem;
+  line-height: 11.11vw;
+  white-space: nowrap;
+  text-align: center;
+}
+.form .form__radio-container {
+  margin: 8.33vw 0;
+}
+.form .form__radio-container .form__radio-input {
+  margin-left: 8.33vw;
+}
+.form .form__input-text {
+  height: 11.11vw;
+  width: 82.22vw;
+  margin-bottom: 4.16vw;
+  padding-left: 4.16vw;
+  border: 1px solid #DCDCDC;
+}
+.form .form__button {
+  margin-top: 4.16vw;
+  width: 45.83vw;
 }/*# sourceMappingURL=style.css.map */
