@@ -37,6 +37,11 @@ h1 {
     font-size: 48rem;
     line-height: 15.55vw;
     color: white;
+
+    @media(min-width: 360px) {
+        width: 3.33vw;
+        line-height: 3.33vw;
+    }
 }
 
 h2 {
