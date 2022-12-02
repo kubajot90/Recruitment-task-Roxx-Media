@@ -2,10 +2,17 @@
     padding-top: 16.66vw;
 
     @media(min-width: 360px) {
+        display: flex;
         padding-top: 9.37vw;
+        padding: 9.37vw 4.16vw 0 4.16vw;
     }
 
     .images__container {
+        @media(min-width: 360px) {
+            flex-basis: 50%;
+            height: 32.60vw;
+            padding: 0;
+        }
 
         .images__container-image1 {
             bottom: 0;
@@ -23,16 +30,32 @@
         padding: 0 $main-padding;
         margin: 16.66vw 0 33.47vw;
 
+        @media(min-width: 360px) {
+            flex-basis: 50%;
+            margin: 0;
+            padding: 0 0 0 8.02vw;
+        }
+
         .facts__title {
             display: flex;
             align-items: center;
             width: 51.94vw;
             height: 20.27vw;
             margin-top: 2.638vw;
+
+            @media(min-width: 360px) {
+                width: 15.88vw;
+                height: 5.62vw;
+                margin: 0.41vw 0 1.56vw 0;
+            }
         }
 
         .facts__icon {
             width: 6.66vw;
+
+            @media(min-width: 360px) {
+                width: 1.43vw;
+            }
         }
     }
 }

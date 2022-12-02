@@ -49,6 +49,11 @@ h2 {
     font-weight: bold;
     font-size: 24rem;
     line-height: 7.77vw;
+
+    @media(min-width: 360px) {
+        font-size: 1.87vw;
+        line-height: 2.08vw;
+    }
 }
 
 h3 {
@@ -63,6 +68,12 @@ h4 {
     font-size: 13rem;
     line-height: 6.66vw;
     color: #4e4e4e;
+
+    @media(min-width: 360px) {
+        font-size: 0.72vw;
+        line-height: 1.25vw;
+    }
+
 }
 
 .images__container {
@@ -75,12 +86,22 @@ h4 {
         position: absolute;
         width: 30.55vw;
         height: 30.55vw;
+
+        @media(min-width: 360px) {
+            width: 16.66vw;
+            height: auto;
+        }
     }
 
     .images__container-image2 {
         position: absolute;
         width: 66.66vw;
         height: 66.66vw;
+
+        @media(min-width: 360px) {
+            width: 27.91vw;
+            height: auto;
+        }
     }
 
 }

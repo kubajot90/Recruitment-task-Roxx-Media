@@ -1,11 +1,28 @@
+.attribute__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .attribute {
     margin-top: 8.33vw;
+    flex-basis: 29%;
+
+    @media(min-width: 360px) {
+        margin: 0 1.60vw 3.12vw 0;
+        width: 9.99vw;
+        height: 8.95vw;
+    }
 
     .attribute__number {
         font-family: 'Cairo', sans-serif;
         font-weight: bold;
         font-size: 12rem;
         line-height: 6.38vw;
+
+        @media(min-width: 360px) {
+            font-size: 0.62vw;
+            line-height: 1.19vw;
+        }
     }
 
     .attribute__path {
@@ -15,6 +32,13 @@
         height: 0.416vw;
         margin: 4.16vw 0;
         background-color: rgb(226, 226, 226);
+
+        @media(min-width: 360px) {
+            margin-bottom: 1.15vw;
+            margin: 0.34vw 0;
+            height: 0.07vw;
+            width: 9.99vw;
+        }
     }
 
     .attribute__path::after {
@@ -25,6 +49,11 @@
         top: 0;
         left: 0;
         background-color: #4e4e4e;
+
+        @media(min-width: 360px) {
+            height: 0.07vw;
+            width: 0.67vw;
+        }
     }
 
     .attribute__text h4 {}
