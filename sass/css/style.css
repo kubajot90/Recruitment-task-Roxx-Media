@@ -65,6 +65,12 @@ h3 {
   line-height: 6.66vw;
   color: #707070;
 }
+@media (min-width: 360px) {
+  h3 {
+    font-size: 1.04vw;
+    line-height: 1.66vw;
+  }
+}
 
 h4 {
   font-size: 13rem;
@@ -508,8 +514,29 @@ input::-webkit-inner-spin-button {
     width: 0.67vw;
   }
 }
+@media (min-width: 360px) {
+  .innovations {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding: 0 4.16vw;
+    margin: 6.25vw 0 9.84vw 0;
+  }
+}
 .innovations .images__container {
   margin-bottom: 16.66vw;
+}
+@media (min-width: 360px) {
+  .innovations .images__container {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    height: 32.6vw;
+    margin-bottom: 0;
+  }
 }
 .innovations .images__container .images__container-image1 {
   right: 0;
@@ -522,9 +549,23 @@ input::-webkit-inner-spin-button {
 .innovations .innovations__content {
   padding: 0 8.88vw;
 }
+@media (min-width: 360px) {
+  .innovations .innovations__content {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    margin-top: 6.82vw;
+    padding: 0;
+  }
+}
 .innovations .innovations__content .innovations__icon {
   width: 15.527vw;
   margin-bottom: 2.77vw;
+}
+@media (min-width: 360px) {
+  .innovations .innovations__content .innovations__icon {
+    width: 2.91vw;
+    margin-bottom: 0.67vw;
+  }
 }
 .innovations .innovations__content .innovations__title {
   display: -webkit-box;
@@ -537,11 +578,30 @@ input::-webkit-inner-spin-button {
   width: 48.33vw;
   height: 28.05vw;
 }
+@media (min-width: 360px) {
+  .innovations .innovations__content .innovations__title {
+    margin-bottom: 2.34vw;
+    width: 13.54vw;
+    height: 7.7vw;
+  }
+}
 .innovations .innovations__content .innovations__subtitle {
   margin-bottom: 4.16vw;
 }
+@media (min-width: 360px) {
+  .innovations .innovations__content .innovations__subtitle {
+    width: 27.91vw;
+    margin-bottom: 1.56vw;
+  }
+}
 .innovations .innovations__content .innovations__text {
   margin-bottom: 33.33vw;
+}
+@media (min-width: 360px) {
+  .innovations .innovations__content .innovations__text {
+    width: 27.91vw;
+    margin-bottom: 0;
+  }
 }
 
 .test-drive .test-drive__image-container-1 {
@@ -592,6 +652,12 @@ input::-webkit-inner-spin-button {
   padding: 0 2.77vw;
   margin-bottom: 19.44vw;
   width: 100%;
+}
+@media (min-width: 360px) {
+  .images-group .images-group__image {
+    padding: 0 0.52vw;
+    margin-bottom: 8.9vw;
+  }
 }
 
 .form {

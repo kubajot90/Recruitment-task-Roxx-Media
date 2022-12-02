@@ -1,6 +1,19 @@
 .innovations {
+    @media(min-width: 360px) {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 4.16vw;
+        margin: 6.25vw 0 9.84vw 0;
+    }
+
     .images__container {
         margin-bottom: 16.66vw;
+
+        @media(min-width: 360px) {
+            flex-basis: 50%;
+            height: 32.6vw;
+            margin-bottom: 0;
+        }
 
         .images__container-image1 {
             right: 0;
@@ -16,9 +29,20 @@
     .innovations__content {
         padding: 0 $main-padding;
 
+        @media(min-width: 360px) {
+            flex-basis: 50%;
+            margin-top: 6.82vw;
+            padding: 0;
+        }
+
         .innovations__icon {
             width: 15.527vw;
             margin-bottom: 2.77vw;
+
+            @media(min-width: 360px) {
+                width: 2.91vw;
+                margin-bottom: 0.67vw;
+            }
         }
 
         .innovations__title {
@@ -27,14 +51,30 @@
             margin-bottom: 8.33vw;
             width: 48.33vw;
             height: 28.05vw;
+
+            @media(min-width: 360px) {
+                margin-bottom: 2.34vw;
+                width: 13.54vw;
+                height: 7.7vw;
+            }
         }
 
         .innovations__subtitle {
             margin-bottom: 4.16vw;
+
+            @media(min-width: 360px) {
+                width: 27.91vw;
+                margin-bottom: 1.56vw;
+            }
         }
 
         .innovations__text {
             margin-bottom: 33.33vw;
+
+            @media(min-width: 360px) {
+                width: 27.91vw;
+                margin-bottom: 0;
+            }
         }
     }
 
