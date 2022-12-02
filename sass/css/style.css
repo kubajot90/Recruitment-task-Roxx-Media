@@ -40,8 +40,8 @@ h1 {
 }
 @media (min-width: 360px) {
   h1 {
-    width: 3.33vw;
     line-height: 3.33vw;
+    font-size: 3.33vw;
   }
 }
 
@@ -171,6 +171,12 @@ input::-webkit-inner-spin-button {
   height: 100%;
   z-index: 9;
 }
+@media (min-width: 360px) {
+  .hero .hero__main {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.75)), to(transparent));
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.75), transparent);
+  }
+}
 .hero .hero__main .hero__naviagtion {
   display: none;
   -webkit-box-align: center;
@@ -181,9 +187,16 @@ input::-webkit-inner-spin-button {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 64.79vw;
+  width: 71.04vw;
   height: 4.47vw;
   border-bottom: rgba(255, 255, 255, 0.25) 1.5px solid;
+}
+@media (min-width: 360px) {
+  .hero .hero__main .hero__naviagtion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 .hero .hero__main .hero__naviagtion .hero__naviagation-list {
   display: -webkit-box;
@@ -200,13 +213,6 @@ input::-webkit-inner-spin-button {
   font-weight: bold;
   color: white;
   cursor: pointer;
-}
-@media (min-width: 360px) {
-  .hero .hero__main .hero__naviagtion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 .hero .hero__main .hero__hamburger-container {
   display: -webkit-box;
@@ -260,7 +266,7 @@ input::-webkit-inner-spin-button {
     width: 2.75vw;
     height: 2.75vw;
     top: 1.04vw;
-    right: 13.8vw;
+    right: 14.8vw;
   }
 }
 .hero .hero__main .hero__title-container {
@@ -271,7 +277,7 @@ input::-webkit-inner-spin-button {
 @media (min-width: 360px) {
   .hero .hero__main .hero__title-container {
     top: 17.7vw;
-    padding: 0 14.47vw;
+    padding: 0 14.53vw;
   }
 }
 .hero .hero__main .hero__title-container .hero__bmw-i-logo {
@@ -299,6 +305,22 @@ input::-webkit-inner-spin-button {
 @media (min-width: 360px) {
   .hero .hero__main .hero__title-container .hero__title {
     width: 21.66vw;
+    height: 6.25vw;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (min-width: 360px) {
+  .hero .hero__main .hero__title-container .hero__title .hero__title-text {
+    margin-right: 0.75vw;
   }
 }
 .hero .hero__main .hero__title-container .hero__subtitle-text {
@@ -334,6 +356,11 @@ input::-webkit-inner-spin-button {
 
 .facts {
   padding-top: 16.66vw;
+}
+@media (min-width: 360px) {
+  .facts {
+    padding-top: 9.37vw;
+  }
 }
 .facts .images__container .images__container-image1 {
   bottom: 0;

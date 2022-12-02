@@ -1,6 +1,10 @@
 .facts {
     padding-top: 16.66vw;
 
+    @media(min-width: 360px) {
+        padding-top: 9.37vw;
+    }
+
     .images__container {
 
         .images__container-image1 {
