@@ -1,14 +1,31 @@
 .test-drive {
+    width: 100%;
+
+    @media(min-width: 360px) {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
     .test-drive__image-container-1 {
         position: relative;
         height: 66.94vw;
         margin-bottom: 7.22vw;
+
+        @media(min-width: 360px) {
+            height: 19.42vw;
+            width: 34.5vw;
+        }
 
         .test-drive__image-1 {
             position: absolute;
             height: 100%;
             left: -43.61vw;
 
+            @media(min-width: 360px) {
+                left: -47%;
+                top: 46%;
+            }
         }
 
         .test-drive__path-1 {
@@ -17,6 +34,13 @@
             top: 25.99vw;
             left: -43.61vw;
             z-index: -1;
+
+            @media(min-width: 360px) {
+                width: 38.3vw;
+                top: 99%;
+                left: -173%;
+            }
+
         }
     }
 
@@ -24,13 +48,31 @@
     .test-drive__content {
         padding: 0 $main-padding;
         margin-bottom: 16.66vw;
+        flex-shrink: 0;
+
+        @media(min-width: 360px) {
+            padding: 4.68vw;
+            width: 42.29vw;
+            height: 52vw;
+            box-shadow: 3px 3px 60px #00000012;
+            background-color: white;
+            z-index: 99;
+        }
 
         .test-drive__title {
             height: 12.5vw;
+
+            @media(min-width: 360px) {
+                height: 3.54vw;
+            }
         }
 
         .test-drive__title sup {
             font-size: 13rem;
+
+            @media(min-width: 360px) {
+                font-size: 4rem;
+            }
         }
     }
 
@@ -38,10 +80,22 @@
         position: relative;
         height: 98.61vw;
 
+        @media(min-width: 360px) {
+            height: 24.21vw;
+            width: 33.22vw;
+        }
+
         .test-drive__image-2 {
             position: absolute;
             width: 108.61vw;
             right: -56vw;
+
+            @media(min-width: 360px) {
+                right: -62%;
+                top: 130%;
+                height: 100%;
+                width: auto;
+            }
         }
 
         .test-drive__path-2 {
@@ -50,6 +104,12 @@
             left: 20.55vw;
             width: 98.33vw;
             z-index: -1;
+
+            @media(min-width: 360px) {
+                width: 38.3vw;
+                top: 21%;
+                left: 139%;
+            }
         }
     }
 }

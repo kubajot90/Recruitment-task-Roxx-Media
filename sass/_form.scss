@@ -1,7 +1,11 @@
 .form {
     display: flex;
     flex-direction: column;
-    padding: 0 $main-padding;
+    margin-top: 16.6vw;
+
+    @media(min-width: 360px) {
+        margin-top: 4.68vw;
+    }
 
     label,
     ::placeholder {
@@ -9,10 +13,20 @@
         font-weight: 400;
         font-size: 13rem;
         line-height: 6.66vw;
+
+        @media(min-width: 360px) {
+            font-size: 0.72vw;
+            line-height: 1.25vw;
+        }
     }
 
     label {
-        margin-left: 2.77vw;
+        margin-left: .5vw;
+
+        @media(min-width: 360px) {
+            font-size: 1.04vw;
+            line-height: 1.4vw;
+        }
     }
 
     .form__header {
@@ -22,13 +36,28 @@
         line-height: 11.11vw;
         white-space: nowrap;
         text-align: center;
+
+        @media(min-width: 360px) {
+            font-size: 1.04vw;
+            line-height: 2.08vw;
+        }
     }
 
     .form__radio-container {
         margin: 8.33vw 0;
 
+        @media(min-width: 360px) {
+            margin: 1.56vw 0;
+        }
+
         .form__radio-input {
             margin-left: 8.33vw;
+
+            @media(min-width: 360px) {
+                margin-left: 0.5vw;
+            }
+
+
         }
     }
 
@@ -38,10 +67,26 @@
         margin-bottom: 4.16vw;
         padding-left: 4.16vw;
         border: 1px solid #DCDCDC;
+
+        @media(min-width: 360px) {
+            margin-bottom: 1.56vw;
+            padding-left: 1.14vw;
+            width: 26.35vw;
+            height: 2.7vw;
+        }
     }
 
     .form__button {
         margin-top: 4.16vw;
         width: 45.83vw;
+
+        @media(min-width: 360px) {
+            margin-top: 3.12vw;
+            width: 12.65vw;
+            height: 3.28vw;
+            line-height: 1.7vw;
+            font-size: 0.93vw;
+            letter-spacing: 0.04vw;
+        }
     }
 }

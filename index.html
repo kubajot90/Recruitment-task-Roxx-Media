@@ -164,30 +164,30 @@
                     Zachęcamy do ograniczenia poruszania się i pozostania w domu.<br><br>
                     Jeśli jednak jazda testowa okaże się niezbędna prosimy o wypełnienie poniższego formularza.
                 </h3>
+                <form class="form">
+                    <header class="form__header">
+                        Wypełnij formularz swoimi danymi.
+                    </header>
+
+                    <div class="form__radio-container">
+                        <input class="form__radio-input" type="radio" id="mrs">
+                        <label for="mrs">Pani</label>
+
+                        <input class="form__radio-input" type="radio" id="mr">
+                        <label for="mr">Pan</label> 
+                    </div>
+                    
+                    <input class="form__input-text" type="text" id="name" placeholder="Imię*">
+                    
+                    <input class="form__input-text" type="text" id="surname" placeholder="Nazwisko*">
+
+                    <input class="form__input-text" type="text" id="email" placeholder="E-mail*">
+
+                    <input class="form__input-text" type="number" id="number" placeholder="Numer telefonu*">
+
+                    <button class="form__button">WYŚLIJ</button>
+                </form>
             </div>
-            <form class="form">
-                <header class="form__header">
-                    Wypełnij formularz swoimi danymi.
-                </header>
-
-                <div class="form__radio-container">
-                    <input class="form__radio-input" type="radio" id="mrs">
-                    <label for="mrs">Pani</label>
-
-                    <input class="form__radio-input" type="radio" id="mr">
-                    <label for="mr">Pan</label> 
-                </div>
-                
-                <input class="form__input-text" type="text" id="name" placeholder="Imię*">
-                
-                <input class="form__input-text" type="text" id="surname" placeholder="Nazwisko*">
-
-                <input class="form__input-text" type="text" id="email" placeholder="E-mail*">
-
-                <input class="form__input-text" type="number" id="number" placeholder="Numer telefonu*">
-
-                <button class="form__button">WYŚLIJ</button>
-            </form>
             <div class="test-drive__image-container-2">
                 <picture>
                 <source media="(max-width: 360px)" srcset="./assets/desktop/13273-2022-bmw-ix.png 1x, ./assets/desktop/13273-2022-bmw-ix@2x.png 2x" />
@@ -199,31 +199,34 @@
             
          </section>
          <section class="footer">
-            <div class="footer__header">
-                Dołącz do nas
+            <div class="footer__container">
+                    <div class="footer__header">
+                        Dołącz do nas
+                    </div>
+                    <div class="footer__icon-box">
+                        <picture>
+                            <source srcset="./assets/desktop/NoPath.png 1x, ./assets/desktop/NoPath@2x.png 2x" />
+                            <img src="./assets/desktop/NoPath.png" class="footer__image"  alt="Facebook logo">
+                        </picture>
+                        <picture>
+                            <source srcset="./assets/desktop/NoPath-2.png 1x, ./assets/desktop/NoPath-2@2x.png 2x" />
+                            <img src="./assets/desktop/NoPath-2.png" class="footer__image"  alt="instagram logo">
+                        </picture>
+                        <picture>
+                            <source srcset="./assets/desktop/NoPath-3.png 1x, ./assets/desktop/NoPath-3@2x.png 2x" />
+                            <img src="./assets/desktop/NoPath-3.png" class="footer__image"  alt="Youtube logo">
+                        </picture>
+                        <picture>
+                            <source srcset="./assets/desktop/NoPath-4.png 1x, ./assets/desktop/NoPath-4@2x.png 2x" />
+                            <img src="./assets/desktop/NoPath-4.png" class="footer__image"  alt="LinkedIn logo">
+                        </picture>
+                        <picture>
+                            <source srcset="./assets/desktop/NoPath-5.png 1x, ./assets/desktop/NoPath-5@2x.png 2x" />
+                            <img src="./assets/desktop/NoPath-5.png" class="footer__image"  alt="Twitter logo">
+                        </picture>
+                    </div>
             </div>
-            <div class="footer__icon-box">
-                <picture>
-                    <source srcset="./assets/desktop/NoPath.png 1x, ./assets/desktop/NoPath@2x.png 2x" />
-                    <img src="./assets/desktop/NoPath.png" class="footer__image"  alt="Facebook logo">
-                </picture>
-                <picture>
-                    <source srcset="./assets/desktop/NoPath-2.png 1x, ./assets/desktop/NoPath-2@2x.png 2x" />
-                    <img src="./assets/desktop/NoPath-2.png" class="footer__image"  alt="instagram logo">
-                </picture>
-                <picture>
-                    <source srcset="./assets/desktop/NoPath-3.png 1x, ./assets/desktop/NoPath-3@2x.png 2x" />
-                    <img src="./assets/desktop/NoPath-3.png" class="footer__image"  alt="Youtube logo">
-                </picture>
-                <picture>
-                    <source srcset="./assets/desktop/NoPath-4.png 1x, ./assets/desktop/NoPath-4@2x.png 2x" />
-                    <img src="./assets/desktop/NoPath-4.png" class="footer__image"  alt="LinkedIn logo">
-                </picture>
-                <picture>
-                    <source srcset="./assets/desktop/NoPath-5.png 1x, ./assets/desktop/NoPath-5@2x.png 2x" />
-                    <img src="./assets/desktop/NoPath-5.png" class="footer__image"  alt="Twitter logo">
-                </picture>
-            </div>
+            
             <span class="footer__line"></span>
          </section>   
     </main>
